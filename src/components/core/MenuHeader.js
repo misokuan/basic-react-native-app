@@ -5,23 +5,21 @@ import { Core, BrandPalette as c } from '../../styles';
 
 // Make a component
 const MenuHeader = ({ title }) => (
-    <Container>
-        <Header>
-          <Left>
-            <Button transparent>
-              <Icon name='arrow-back' style={{ color: c.primary }} />
-            </Button>
-          </Left>
-          <Body>
-            <Title style={Core.headerText}>{title}</Title>
-          </Body>
-          <Right>
-            <Button transparent>
-              <Icon name='menu' style={{ color: c.primary }} />
-            </Button>
-          </Right>
-        </Header>
-    </Container>
+    <Header>
+      <Left>
+        <Button transparent>
+          <Icon name='arrow-back' style={{ color: c.primary }} />
+        </Button>
+      </Left>
+      <Body>
+        <Title style={Core.headerText}>{title}</Title>
+      </Body>
+      <Right>
+        <Button transparent>
+          <Icon name='menu' style={{ color: c.primary }} />
+        </Button>
+      </Right>
+    </Header>
 );
 
 // Make the component available to other parts of the app
