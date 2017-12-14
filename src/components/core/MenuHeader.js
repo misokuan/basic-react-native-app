@@ -9,15 +9,15 @@ const MenuHeader = ({ title }) => (
         <Header>
           <Left>
             <Button transparent>
-              <Icon name='arrow-back' />
+              <Icon name='arrow-back' style={{ color: c.primary }} />
             </Button>
           </Left>
           <Body>
-            <Title style={[Core.headerText, { color: c.warning }]}>{title}</Title>
+            <Title style={Core.headerText}>{title}</Title>
           </Body>
           <Right>
             <Button transparent>
-              <Icon name='menu' />
+              <Icon name='menu' style={{ color: c.primary }} />
             </Button>
           </Right>
         </Header>

@@ -9,7 +9,7 @@ EStyleSheet.build();
 // Create a Component
 const App = () => (
     <View>
-        <MenuHeader title="Hey" />
+        <MenuHeader title="Welcome" />
     </View>
 );
 
