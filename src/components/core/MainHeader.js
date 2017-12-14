@@ -4,7 +4,7 @@ import { Header, Left, Body, Right, Button, Icon, Title, Subtitle } from 'native
 import { Core, BrandPalette as c } from '../../styles';
 
 // Make a component
-class MenuHeader extends Component {
+class MainHeader extends Component {
     renderLeftButton() {
         const { leftIcon, color } = this.props;
         return (
@@ -49,7 +49,7 @@ class MenuHeader extends Component {
     }
 }
 
-MenuHeader.defaultProps = {
+MainHeader.defaultProps = {
     title: '',
     subtitle: '',
     leftIcon: 'arrow-back',
@@ -58,4 +58,4 @@ MenuHeader.defaultProps = {
 };
 
 // Make the component available to other parts of the app
-export default MenuHeader;
+export default MainHeader;
